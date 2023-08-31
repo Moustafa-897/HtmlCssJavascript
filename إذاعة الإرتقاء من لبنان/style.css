@@ -1,0 +1,361 @@
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 40px 20px;
+
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+.div1 {
+    align-items: center;
+    align-content: center;
+    text-align: right;
+
+
+}
+
+.p1 {
+    font-family: GE SS Two;
+    font-size: 40px;
+    font-weight: 500;
+    color: #1600ff;
+}
+
+#p2 {
+    font-family: GE SS Two;
+    font-size: 26px;
+    font-weight: 500;
+    text-align: right;
+    color: #1600ff;
+}
+
+.appstore {
+    width: 10%;
+}
+
+.android {
+    width: 10%;
+}
+
+.div3 {
+
+    margin-right: 10px;
+    background-color: blue;
+    border-radius: 15px;
+    width: 500px;
+    height: 60px;
+    padding: 20px 20px;
+    padding-right: 80px;
+
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+ul,
+li,
+a {
+
+
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-grow: 1;
+    list-style: none;
+    text-decoration: none;
+
+
+}
+
+a:visited {
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.div4 {
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    width: 15%;
+
+}
+
+.facebook {
+    width: 30px;
+
+}
+
+.twiter {
+    width: 30px;
+}
+
+.youtube {
+    width: 30px;
+}
+
+main {
+    position: relative;
+    text-align: center;
+}
+
+iframe {
+    width: 1000px;
+    height: 500px;
+}
+
+.div6 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    background-color: #050122;
+    padding: 20px 20px;
+    height: 120px;
+}
+
+.divsect {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0c38a7d7;
+    box-shadow: 0px 4px 4px 0px;
+    border-radius: 65px;
+    padding: 30px;
+
+}
+
+.rad {
+    width: 50px;
+    height: 50px;
+    background-color: #0c38a7d7;
+
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.div7 {
+    background-color: #11c1ce;
+    height: 50px;
+    border: 1px solid #11c1ce;
+}
+
+.div5,
+.div6,
+.div7,
+.div8 {
+    margin-top: 10px;
+}
+
+.div8 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: start;
+    text-align: center;
+    align-content: start;
+    padding: 20px 20px;
+    height: auto;
+
+}
+
+.div8-1 {
+    border-radius: 40px;
+    width: 30%;
+    align-items: end;
+    align-content: end;
+    justify-content: end;
+    text-align: center;
+    margin-top: 5px;
+
+
+}
+
+.svg {
+    background-color: #6ca8e0;
+    align-items: start;
+    align-content: start;
+    text-align: center;
+    justify-content: st;
+}
+
+.div8-2 {
+    border-radius: 40px;
+    width: 60%;
+    align-items: start;
+    align-content: start;
+    text-align: center;
+
+    background-color: #1600ff;
+}
+
+.p1div8 {
+    position: static;
+    background-color: white;
+    color: #1600ff;
+    border-radius: 45px;
+    padding: 10px;
+    font-size: 25px;
+    opacity: 0.8;
+}
+
+.div8_2_1 {
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    justify-content: space-between;
+
+    flex-grow: 1;
+
+
+}
+
+.divp1 {
+    display: flex;
+    position: relative;
+    background-image: url("/اناانتنحن.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: end;
+    align-content: end;
+    justify-content: end;
+    height: 250px;
+    border-radius: 30px;
+
+}
+
+.divp2 {
+    display: flex;
+    position: relative;
+    background-image: url("ainhadath1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: end;
+    align-content: end;
+    justify-content: end;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.divp3 {
+    display: flex;
+    position: relative;
+    background-image: url("montakat.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: end;
+    align-content: end;
+    justify-content: end;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.divp4 {
+    display: flex;
+    position: relative;
+    background-image: url("ainhadath.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: end;
+    align-content: end;
+    justify-content: end;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.divp5 {
+    display: flex;
+    position: relative;
+    background-image: url("doctor.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: end;
+    align-content: end;
+    justify-content: end;
+    height: 250px;
+    border-radius: 30px;
+
+}
+
+.divcont {
+
+    position: relative;
+    background-color: rgb(240, 240, 240);
+    border-radius: 40px;
+    color: #1600ff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 0;
+}
+
+
+#ainhadath {
+    position: relative;
+    padding: 20px 20px;
+    background-position-x: 30px;
+    background-position-y: -10px;
+    background-repeat: no-repeat;
+    background-image: url('/ainhadath.jpeg');
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 300px;
+}
+
+.sala {
+    background-color: #163085;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    height: 70%;
+    padding: 20px 20px;
+    font: bold;
+    font-size: 20px;
+
+}
+
+.salaazane {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    color: white;
+
+    flex-grow: 1;
+
+    padding: 20px 20px;
+}
+
+.child {
+    background-color: #0a4bad;
+    opacity: 0.8;
+    border-radius: 200px;
+    margin: 4px;
+}
